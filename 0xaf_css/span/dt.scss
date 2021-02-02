@@ -1,0 +1,28 @@
+//Datetime extension
+
+span {
+  &[type~='dt'] {
+    font-size: 16px;
+    color: #7163ce;
+    transition: 0.4s color;
+    &:hover {
+      color: #8979f1;
+    }
+  }
+  &[type~='dt-about'] {
+    &::before {
+      content: '~';
+      font-size: 20px;
+      animation: a 1s alternate infinite;
+    }
+  }
+}
+
+@keyframes a {
+  from {
+    color: #928ac9;
+  }
+  to {
+    color: #4f41ac;
+  }
+}

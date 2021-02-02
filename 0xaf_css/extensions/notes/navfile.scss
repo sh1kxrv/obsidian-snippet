@@ -1,0 +1,11 @@
+@import '../../af.constants.scss';
+
+.nav-file-title {
+  transition: background-color 0.2s;
+  &:hover {
+    background-color: $nav-is-active-color !important;
+  }
+  &.is-active {
+    background-color: $nav-is-active-color;
+  }
+}

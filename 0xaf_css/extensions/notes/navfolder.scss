@@ -1,0 +1,28 @@
+@import '../../af.constants.scss';
+
+.nav-folder {
+  padding-left: 4px;
+  &.mod-root > .nav-folder-title {
+    border: 1px solid #3b3b3b;
+    border-radius: 5px;
+    justify-content: center;
+    color: #ececec;
+    text-transform: uppercase;
+    background: linear-gradient(#313131, #272727);
+  }
+}
+
+.nav-folder-children {
+  padding-top: 2px;
+}
+
+.nav-folder-title {
+  transition: background-color 0.2s;
+  &:hover {
+    background-color: $nav-is-active-color !important;
+  }
+  &.is-being-dragged-over {
+    border-color: $nav-folder-dragged-border;
+    background-color: $nav-folder-dragged;
+  }
+}

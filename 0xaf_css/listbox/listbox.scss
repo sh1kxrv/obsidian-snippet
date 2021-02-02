@@ -1,0 +1,41 @@
+@import '../af.constants.scss';
+
+.a-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a-list-box {
+  min-width: 500px;
+  border: 2px solid $list-box-border;
+  border-radius: 12px;
+  box-shadow: 0 0 15px 1px #313131;
+  & > .title {
+    color: $list-box-title;
+    font-size: 26px;
+    font-weight: 600;
+    border-bottom: 3px solid $list-box-underline;
+    border-radius: 8px;
+    padding: 5px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  & > .a-item {
+    font-size: 22px;
+    padding: 8px;
+    border-bottom: 2px solid $list-box-underline;
+    border-radius: 8px;
+  }
+
+  & > .a-item a {
+    color: $link;
+    text-decoration: none;
+  }
+
+  & > .a-item::before {
+    content: '~ ';
+    color: $list-box-tilda;
+  }
+}

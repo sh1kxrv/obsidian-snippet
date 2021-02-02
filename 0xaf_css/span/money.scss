@@ -1,0 +1,29 @@
+span[type='money'] {
+  color: #6bab38;
+  transition: color 0.2s ease-in-out;
+}
+
+span[type='money']::after {
+  position: absolute;
+  margin-top: -6px;
+  margin-left: 1px;
+  content: '$';
+  font-size: 14px;
+  color: #539b18;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  animation: dollar 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes dollar {
+  to {
+    transform: rotate(-35deg);
+  }
+  from {
+    transform: rotate(35deg);
+  }
+}
+
+span[type='money']:hover {
+  color: #96e854;
+}

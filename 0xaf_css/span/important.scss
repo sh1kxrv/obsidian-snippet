@@ -1,0 +1,22 @@
+@import '../af.constants.scss';
+
+span[type='important'] {
+  font-size: 16px;
+  color: $important-color;
+  &::after {
+    content: '( ! )';
+    margin-left: 5px;
+    font-size: 18px;
+    color: #a05555;
+    animation: important 0.7s alternate infinite;
+  }
+}
+
+@keyframes important {
+  to {
+    color: $important-hover;
+  }
+  from {
+    color: $important-color;
+  }
+}

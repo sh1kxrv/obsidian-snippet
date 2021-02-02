@@ -1,0 +1,18 @@
+@import '../af.constants.scss';
+
+input[type='checkbox'] {
+  transform: translateY(-2px);
+}
+
+.is-checked {
+  text-decoration: none !important;
+  & span[type='dt'] {
+    color: #3e3388;
+  }
+  & span[type='important'] {
+    color: #964545;
+  }
+  .tag {
+    color: $tag-disabled;
+  }
+}

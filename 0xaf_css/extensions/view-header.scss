@@ -1,0 +1,14 @@
+@import '../af.constants.scss';
+
+.workspace-leaf-content {
+  border-radius: 0 !important;
+}
+
+.workspace-split.mod-root > .workspace-leaf:first-of-type:last-of-type.mod-active .view-header-title-container:after {
+  background: none !important;
+}
+.view-header {
+  background-color: #000 !important;
+  height: 31.4px;
+  border-bottom: 1px solid #1f1f1f !important;
+}

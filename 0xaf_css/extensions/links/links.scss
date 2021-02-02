@@ -1,0 +1,16 @@
+@import '../../af.constants.scss';
+
+.internal-link {
+  color: $link;
+  text-decoration: none !important;
+  transition: color 0.4s, text-shadow 0.4s;
+  &:hover {
+    color: $link-hover;
+    text-shadow: 0px 0px 5px rgba(141, 96, 233, 1);
+  }
+}
+
+.task-list-item input[type='checkbox'],
+.is-checked .internal-link {
+  color: $link-disabled;
+}
