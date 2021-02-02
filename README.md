@@ -1,5 +1,4 @@
-# obsidian-snippet
-Obsidian MD | Custom snippet
+# My Obsidian-MD CSS Snippet
 
 ## Demo
 
