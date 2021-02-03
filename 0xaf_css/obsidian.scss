@@ -1,7 +1,11 @@
+//Colors
+@import './af.constants.scss';
+
 //Spans
 @import './span/dt.scss';
 @import './span/money.scss';
 @import './span/important.scss';
+@import './span/contrast.scss';
 
 //Headers
 @import './h1/header.scss';
@@ -14,7 +18,7 @@
 
 //========Extensions========\\
 
-//Custom view-content
+//Custom View-Content
 @import './extensions/view-content.scss';
 @import './extensions/view-header.scss';
 
@@ -26,6 +30,6 @@
 @import './extensions/notes/navfile.scss';
 @import './extensions/notes/navfolder.scss';
 
-//Code highlight
+//Code Highlight
 @import './extensions/codemirror/highlight.scss';
 @import './extensions/tags.scss';

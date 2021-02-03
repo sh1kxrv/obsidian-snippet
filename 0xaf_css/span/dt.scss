@@ -1,12 +1,11 @@
 //Datetime extension
-
 span {
   &[type~='dt'] {
     font-size: 16px;
-    color: #7163ce;
+    color: $dt-color;
     transition: 0.4s color;
     &:hover {
-      color: #8979f1;
+      color: $dt-hover;
     }
   }
   &[type~='dt-about'] {
