@@ -4,6 +4,6 @@
 
 **(Background animated)**
 
-![Full Window](preview/demo.png)
+![Full Window](preview/demo2.png)
 
 ![Html highlight](preview/html-highlight.png)
